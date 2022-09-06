@@ -14,7 +14,7 @@
   <!-- Inter web font from Bunny.net (GDPR compliant) -->
   <link href="https://fonts.bunny.net/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-  @vite('resources/js/app.js')
+  @vite(['resources/css/tailkit.css', 'resources/js/app.js'])
 </head>
   
 <body>
