@@ -100,12 +100,12 @@
             <span>by pixelcave</span>
           </a>
           <h1
-            class="mb-3 text-3xl font-black text-black md:text-4xl lg:mx-auto lg:w-2/3 lg:leading-tight dark:text-white"
+            class="mb-3 text-3xl font-black text-black dark:text-white md:text-4xl lg:mx-auto lg:w-2/3 lg:leading-tight"
           >
             Build amazing web apps and websites that your users will love using
           </h1>
           <h2
-            class="text-lg font-medium leading-relaxed text-gray-700 lg:mx-auto lg:w-3/5 dark:text-gray-300"
+            class="text-lg font-medium leading-relaxed text-gray-700 dark:text-gray-300 lg:mx-auto lg:w-3/5"
           >
             Carefully crafted, easy to customize, fully responsive UI
             Components, Templates and Tools for your Tailwind CSS based
@@ -141,7 +141,7 @@
           <a
             href="https://tailkit.com/docs/documentation"
             target="_blank"
-            class="group inline-flex w-full items-center justify-center space-x-2 rounded-lg border border-gray-200 bg-white p-3 text-sm font-semibold leading-5 text-gray-800 transition hover:border-gray-300 hover:text-gray-900 hover:shadow-sm focus:outline-none focus:ring-2 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none sm:w-auto sm:px-4 dark:border-gray-700 dark:bg-transparent dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/50 dark:active:border-gray-700"
+            class="group inline-flex w-full items-center justify-center space-x-2 rounded-lg border border-gray-200 bg-white p-3 text-sm font-semibold leading-5 text-gray-800 transition hover:border-gray-300 hover:text-gray-900 hover:shadow-sm focus:outline-none focus:ring-2 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-transparent dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/50 dark:active:border-gray-700 sm:w-auto sm:px-4"
           >
             <svg
               class="hi-mini hi-document-text inline-block h-5 w-5 opacity-50"
