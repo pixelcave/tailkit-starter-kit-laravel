@@ -12,19 +12,19 @@
     ]
   },
   "devDependencies": {
-    "@alpinejs/focus": "^3.13.7",
+    "@alpinejs/focus": "^3.13.8",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/forms": "^0.5.7",
-    "@tailwindcss/typography": "^0.5.10",
-    "alpinejs": "^3.13.7",
-    "autoprefixer": "^10.4.18",
-    "axios": "^1.6.4",
-    "laravel-vite-plugin": "^1.0",
-    "postcss": "^8.4.35",
+    "@tailwindcss/typography": "^0.5.12",
+    "alpinejs": "^3.13.8",
+    "autoprefixer": "^10.4.19",
+    "axios": "^1.6.8",
+    "laravel-vite-plugin": "^1.0.2",
+    "postcss": "^8.4.38",
     "prettier": "^3.2.5",
-    "prettier-plugin-blade": "^2.1.6",
-    "prettier-plugin-tailwindcss": "^0.5.12",
-    "tailwindcss": "^3.4.1",
-    "vite": "^5.0"
+    "prettier-plugin-blade": "^2.1.11",
+    "prettier-plugin-tailwindcss": "^0.5.13",
+    "tailwindcss": "^3.4.3",
+    "vite": "^5.2.8"
   }
 }
