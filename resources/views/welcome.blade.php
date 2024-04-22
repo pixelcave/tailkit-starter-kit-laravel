@@ -29,17 +29,17 @@
 
     <div class="min-h-screen bg-white dark:bg-gray-900 dark:text-gray-100">
       <div
-        class="container mx-auto space-y-12 px-4 py-12 text-center sm:py-20 xl:max-w-6xl"
+        class="container mx-auto space-y-10 px-4 py-12 text-center sm:py-20 xl:max-w-6xl"
       >
         <div>
           <a
             href="/"
-            class="active group inline-flex items-center justify-center gap-2 active:opacity-75"
+            class="active group inline-flex items-center justify-center gap-1.5 active:opacity-75"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 256 256"
-              class="inline-block h-8 w-8 transition duration-150 ease-out group-hover:-rotate-12 group-active:rotate-0"
+              class="inline-block size-6 transition duration-150 ease-out group-hover:-rotate-12 group-active:rotate-0"
             >
               <circle
                 cx="128"
@@ -74,16 +74,15 @@
               ></path>
             </svg>
             <span
-              class="text-3xl font-bold transition-opacity duration-150 ease-out group-hover:opacity-75"
+              class="text-2xl font-bold transition-opacity duration-150 ease-out group-hover:opacity-75"
+              >Tailkit</span
             >
-              Tailkit
-            </span>
           </a>
         </div>
         <div>
           <a
             href="https://pixelcave.com"
-            class="group mb-2 inline-flex items-center space-x-1 rounded border bg-gray-200/50 px-1.5 py-1 text-sm font-semibold leading-4 text-gray-700 transition hover:border-rose-100 hover:bg-rose-100 hover:text-rose-700 active:border-gray-200 active:bg-gray-200/50 active:text-gray-700 dark:border-gray-700 dark:bg-transparent dark:text-gray-300 dark:hover:border-rose-900 dark:hover:bg-rose-800 dark:hover:text-rose-100 dark:active:border-gray-700 dark:active:bg-gray-700/50 dark:active:text-gray-300"
+            class="group mb-2 inline-flex items-center gap-1 rounded border bg-gray-200/50 px-1.5 py-1 text-sm font-semibold leading-4 text-gray-700 transition hover:border-rose-100 hover:bg-rose-100 hover:text-rose-700 active:border-gray-200 active:bg-gray-200/50 active:text-gray-700 dark:border-gray-700 dark:bg-transparent dark:text-gray-300 dark:hover:border-rose-900 dark:hover:bg-rose-800 dark:hover:text-rose-100 dark:active:border-gray-700 dark:active:bg-gray-700/50 dark:active:text-gray-300"
           >
             <span>Crafted with</span>
             <svg
@@ -100,12 +99,20 @@
             <span>by pixelcave</span>
           </a>
           <h1
-            class="mb-3 text-3xl font-black text-black dark:text-white md:text-4xl lg:mx-auto lg:w-2/3 lg:leading-tight"
+            class="lg:leading-tighter mb-4 text-3xl font-black text-black dark:text-white md:text-5xl lg:mx-auto lg:w-5/6"
           >
-            Build amazing web apps and websites that your users will love using
+            <span
+              class="bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 bg-clip-text text-transparent dark:from-blue-400 dark:via-indigo-400 dark:to-purple-400"
+              >Build</span
+            >
+            super modern web applications and websites
+            <span
+              class="bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 bg-clip-text text-transparent dark:from-blue-400 dark:via-indigo-400 dark:to-purple-400"
+              >really fast</span
+            >.
           </h1>
           <h2
-            class="text-lg font-medium leading-relaxed text-gray-700 dark:text-gray-300 lg:mx-auto lg:w-3/5"
+            class="text-lg/relaxed font-medium text-gray-700 dark:text-gray-300 sm:text-xl/relaxed lg:mx-auto lg:w-3/5"
           >
             Carefully crafted, easy to customize, fully responsive UI
             Components, Templates and Tools for your Tailwind CSS based
@@ -116,10 +123,10 @@
           <a
             href="https://tailkit.com/login"
             target="_blank"
-            class="group inline-flex w-full items-center justify-center gap-2 rounded-lg border border-blue-700 bg-blue-700 p-3 text-sm font-semibold leading-5 text-white transition hover:border-blue-800 hover:bg-blue-800 hover:text-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 active:border-blue-700 active:bg-blue-700 sm:w-auto sm:px-4"
+            class="group inline-flex w-full items-center justify-center gap-2 rounded-lg border border-blue-700 bg-blue-700 p-3 text-sm font-semibold leading-5 text-white transition hover:border-blue-800 hover:bg-blue-800 hover:text-white focus:outline-none focus:ring-2 focus:ring-blue-500/50 active:border-blue-700 active:bg-blue-700 sm:w-auto sm:px-4"
           >
             <svg
-              class="hi-mini hi-rocket-launch inline-block h-5 w-5 opacity-50"
+              class="hi-mini hi-rocket-launch inline-block size-5 opacity-50"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
               fill="currentColor"
@@ -141,10 +148,10 @@
           <a
             href="https://tailkit.com/docs/documentation"
             target="_blank"
-            class="group inline-flex w-full items-center justify-center space-x-2 rounded-lg border border-gray-200 bg-white p-3 text-sm font-semibold leading-5 text-gray-800 transition hover:border-gray-300 hover:text-gray-900 hover:shadow-sm focus:outline-none focus:ring-2 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-transparent dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/50 dark:active:border-gray-700 sm:w-auto sm:px-4"
+            class="group inline-flex w-full items-center justify-center gap-2 rounded-lg border border-gray-200 bg-white p-3 text-sm font-semibold leading-5 text-gray-800 transition hover:border-gray-300 hover:text-gray-900 hover:shadow-sm focus:outline-none focus:ring-2 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-transparent dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/50 dark:active:border-gray-700 sm:w-auto sm:px-4"
           >
             <svg
-              class="hi-mini hi-document-text inline-block h-5 w-5 opacity-50"
+              class="hi-mini hi-document-text inline-block size-5 opacity-50"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
               fill="currentColor"

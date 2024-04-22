@@ -6,7 +6,7 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
-        "laravel/framework": "^11.2",
+        "laravel/framework": "^11.4",
         "laravel/tinker": "^2.9"
     },
     "require-dev": {
@@ -15,8 +15,8 @@
         "laravel/sail": "^1.29.1",
         "mockery/mockery": "^1.6.11",
         "nunomaduro/collision": "^8.1.1",
-        "phpunit/phpunit": "^10.5.16",
-        "spatie/laravel-ignition": "^2.5.1"
+        "phpunit/phpunit": "^10.5.19",
+        "spatie/laravel-ignition": "^2.5.2"
     },
     "autoload": {
         "psr-4": {
