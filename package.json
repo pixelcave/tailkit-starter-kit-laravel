@@ -12,11 +12,11 @@
     ]
   },
   "devDependencies": {
-    "@alpinejs/focus": "^3.13.9",
+    "@alpinejs/focus": "^3.13.10",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/forms": "^0.5.7",
-    "@tailwindcss/typography": "^0.5.12",
-    "alpinejs": "^3.13.9",
+    "@tailwindcss/typography": "^0.5.13",
+    "alpinejs": "^3.13.10",
     "autoprefixer": "^10.4.19",
     "axios": "^1.6.8",
     "laravel-vite-plugin": "^1.0.2",
