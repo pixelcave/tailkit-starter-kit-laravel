@@ -75,8 +75,9 @@
             </svg>
             <span
               class="text-2xl font-bold transition-opacity duration-150 ease-out group-hover:opacity-75"
-              >Tailkit</span
             >
+              Tailkit
+            </span>
           </a>
         </div>
         <div>
@@ -99,20 +100,23 @@
             <span>by pixelcave</span>
           </a>
           <h1
-            class="lg:leading-tighter mb-4 text-3xl font-black text-black dark:text-white md:text-5xl lg:mx-auto lg:w-5/6"
+            class="lg:leading-tighter mb-4 text-3xl font-black text-black md:text-5xl lg:mx-auto lg:w-5/6 dark:text-white"
           >
             <span
               class="bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 bg-clip-text text-transparent dark:from-blue-400 dark:via-indigo-400 dark:to-purple-400"
-              >Build</span
             >
+              Build
+            </span>
             super modern web applications and websites
             <span
               class="bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 bg-clip-text text-transparent dark:from-blue-400 dark:via-indigo-400 dark:to-purple-400"
-              >really fast</span
-            >.
+            >
+              really fast
+            </span>
+            .
           </h1>
           <h2
-            class="text-lg/relaxed font-medium text-gray-700 dark:text-gray-300 sm:text-xl/relaxed lg:mx-auto lg:w-3/5"
+            class="text-lg/relaxed font-medium text-gray-700 sm:text-xl/relaxed lg:mx-auto lg:w-3/5 dark:text-gray-300"
           >
             Carefully crafted, easy to customize, fully responsive UI
             Components, Templates and Tools for your Tailwind CSS based
@@ -146,9 +150,9 @@
             <span>Get Started</span>
           </a>
           <a
-            href="https://tailkit.com/docs/documentation"
+            href="https://tailkit.com/docs"
             target="_blank"
-            class="group inline-flex w-full items-center justify-center gap-2 rounded-lg border border-gray-200 bg-white p-3 text-sm font-semibold leading-5 text-gray-800 transition hover:border-gray-300 hover:text-gray-900 hover:shadow-sm focus:outline-none focus:ring-2 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-transparent dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/50 dark:active:border-gray-700 sm:w-auto sm:px-4"
+            class="group inline-flex w-full items-center justify-center gap-2 rounded-lg border border-gray-200 bg-white p-3 text-sm font-semibold leading-5 text-gray-800 transition hover:border-gray-300 hover:text-gray-900 hover:shadow-sm focus:outline-none focus:ring-2 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none sm:w-auto sm:px-4 dark:border-gray-700 dark:bg-transparent dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/50 dark:active:border-gray-700"
           >
             <svg
               class="hi-mini hi-document-text inline-block size-5 opacity-50"
