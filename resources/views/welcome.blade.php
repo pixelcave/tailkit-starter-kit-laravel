@@ -27,19 +27,21 @@
 
     -->
 
-    <div class="min-h-screen bg-white dark:bg-gray-900 dark:text-gray-100">
+    <div
+      class="flex min-h-screen flex-col justify-center bg-white dark:bg-gray-900 dark:text-gray-100"
+    >
       <div
-        class="container mx-auto space-y-10 px-4 py-12 text-center sm:py-20 xl:max-w-6xl"
+        class="container mx-auto flex flex-col gap-16 px-4 py-12 text-center sm:py-20 xl:max-w-6xl"
       >
         <div>
           <a
-            href="/"
+            href="https://tailkit.com"
             class="active group inline-flex items-center justify-center gap-1.5 active:opacity-75"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 256 256"
-              class="inline-block size-6 transition duration-150 ease-out group-hover:-rotate-12 group-active:rotate-0"
+              class="inline-block size-8 transition duration-150 ease-out group-hover:scale-105 group-active:scale-100"
             >
               <circle
                 cx="128"
@@ -74,7 +76,7 @@
               ></path>
             </svg>
             <span
-              class="text-2xl font-bold transition-opacity duration-150 ease-out group-hover:opacity-75"
+              class="text-3xl font-bold transition-opacity duration-150 ease-out group-hover:opacity-75"
             >
               Tailkit
             </span>
@@ -122,53 +124,53 @@
             Components, Templates and Tools for your Tailwind CSS based
             projects.
           </h2>
-        </div>
-        <div class="flex flex-wrap justify-center gap-2 sm:items-center">
-          <a
-            href="https://tailkit.com/login"
-            target="_blank"
-            class="group inline-flex w-full items-center justify-center gap-2 rounded-lg border border-blue-700 bg-blue-700 p-3 text-sm font-semibold leading-5 text-white transition hover:border-blue-800 hover:bg-blue-800 hover:text-white focus:outline-none focus:ring-2 focus:ring-blue-500/50 active:border-blue-700 active:bg-blue-700 sm:w-auto sm:px-4"
-          >
-            <svg
-              class="hi-mini hi-rocket-launch inline-block size-5 opacity-50"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-              aria-hidden="true"
+          <div class="mt-8 flex flex-wrap justify-center gap-3 sm:items-center">
+            <a
+              href="https://tailkit.com/login"
+              target="_blank"
+              class="group inline-flex w-full items-center justify-center gap-2 rounded-lg border border-blue-700 bg-blue-700 p-3 text-sm font-semibold leading-5 text-white transition hover:border-blue-800 hover:bg-blue-800 hover:text-white focus:outline-none focus:ring-2 focus:ring-blue-500/50 active:border-blue-700 active:bg-blue-700 sm:w-auto sm:px-4"
             >
-              <path
-                fill-rule="evenodd"
-                d="M4.606 12.97a.75.75 0 01-.134 1.051 2.494 2.494 0 00-.93 2.437 2.494 2.494 0 002.437-.93.75.75 0 111.186.918 3.995 3.995 0 01-4.482 1.332.75.75 0 01-.461-.461 3.994 3.994 0 011.332-4.482.75.75 0 011.052.134z"
-                clip-rule="evenodd"
-              />
-              <path
-                fill-rule="evenodd"
-                d="M5.752 12A13.07 13.07 0 008 14.248v4.002c0 .414.336.75.75.75a5 5 0 004.797-6.414 12.984 12.984 0 005.45-10.848.75.75 0 00-.735-.735 12.984 12.984 0 00-10.849 5.45A5 5 0 001 11.25c.001.414.337.75.751.75h4.002zM13 9a2 2 0 100-4 2 2 0 000 4z"
-                clip-rule="evenodd"
-              />
-            </svg>
-            <span>Get Started</span>
-          </a>
-          <a
-            href="https://tailkit.com/docs"
-            target="_blank"
-            class="group inline-flex w-full items-center justify-center gap-2 rounded-lg border border-gray-200 bg-white p-3 text-sm font-semibold leading-5 text-gray-800 transition hover:border-gray-300 hover:text-gray-900 hover:shadow-sm focus:outline-none focus:ring-2 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none sm:w-auto sm:px-4 dark:border-gray-700 dark:bg-transparent dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/50 dark:active:border-gray-700"
-          >
-            <svg
-              class="hi-mini hi-document-text inline-block size-5 opacity-50"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-              aria-hidden="true"
+              <svg
+                class="hi-mini hi-rocket-launch inline-block size-5 opacity-50"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                aria-hidden="true"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M4.606 12.97a.75.75 0 01-.134 1.051 2.494 2.494 0 00-.93 2.437 2.494 2.494 0 002.437-.93.75.75 0 111.186.918 3.995 3.995 0 01-4.482 1.332.75.75 0 01-.461-.461 3.994 3.994 0 011.332-4.482.75.75 0 011.052.134z"
+                  clip-rule="evenodd"
+                />
+                <path
+                  fill-rule="evenodd"
+                  d="M5.752 12A13.07 13.07 0 008 14.248v4.002c0 .414.336.75.75.75a5 5 0 004.797-6.414 12.984 12.984 0 005.45-10.848.75.75 0 00-.735-.735 12.984 12.984 0 00-10.849 5.45A5 5 0 001 11.25c.001.414.337.75.751.75h4.002zM13 9a2 2 0 100-4 2 2 0 000 4z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <span>Get Started</span>
+            </a>
+            <a
+              href="https://tailkit.com/docs"
+              target="_blank"
+              class="group inline-flex w-full items-center justify-center gap-2 rounded-lg border border-gray-200 bg-white p-3 text-sm font-semibold leading-5 text-gray-800 transition hover:border-gray-300 hover:text-gray-900 hover:shadow-sm focus:outline-none focus:ring-2 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none sm:w-auto sm:px-4 dark:border-gray-700 dark:bg-transparent dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/50 dark:active:border-gray-700"
             >
-              <path
-                fill-rule="evenodd"
-                d="M4.5 2A1.5 1.5 0 003 3.5v13A1.5 1.5 0 004.5 18h11a1.5 1.5 0 001.5-1.5V7.621a1.5 1.5 0 00-.44-1.06l-4.12-4.122A1.5 1.5 0 0011.378 2H4.5zm2.25 8.5a.75.75 0 000 1.5h6.5a.75.75 0 000-1.5h-6.5zm0 3a.75.75 0 000 1.5h6.5a.75.75 0 000-1.5h-6.5z"
-                clip-rule="evenodd"
-              />
-            </svg>
-            <span>Documentation</span>
-          </a>
+              <svg
+                class="hi-mini hi-document-text inline-block size-5 opacity-50"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                aria-hidden="true"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M4.5 2A1.5 1.5 0 003 3.5v13A1.5 1.5 0 004.5 18h11a1.5 1.5 0 001.5-1.5V7.621a1.5 1.5 0 00-.44-1.06l-4.12-4.122A1.5 1.5 0 0011.378 2H4.5zm2.25 8.5a.75.75 0 000 1.5h6.5a.75.75 0 000-1.5h-6.5zm0 3a.75.75 0 000 1.5h6.5a.75.75 0 000-1.5h-6.5z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <span>Documentation</span>
+            </a>
+          </div>
         </div>
       </div>
     </div>
