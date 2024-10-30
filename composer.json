@@ -6,16 +6,16 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
-        "laravel/framework": "^11.25.0",
+        "laravel/framework": "^11.29.0",
         "laravel/tinker": "^2.10"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23.1",
         "laravel/pint": "^1.18.1",
-        "laravel/sail": "^1.33.0",
+        "laravel/sail": "^1.37.0",
         "mockery/mockery": "^1.6.12",
-        "nunomaduro/collision": "^8.4.0",
-        "phpunit/phpunit": "^10.5.35",
+        "nunomaduro/collision": "^8.5.0",
+        "phpunit/phpunit": "^10.5.38",
         "spatie/laravel-ignition": "^2.8.0"
     },
     "autoload": {
