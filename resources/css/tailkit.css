@@ -1,8 +1,29 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@source "../views";
 
-/* Alpine.js (x-cloak - https://alpinejs.dev/directives/cloak) */
-[x-cloak] {
-  display: none !important;
+/* Plugins */
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+/* Class based dark mode */
+@variant dark (&:where(.dark, .dark *));
+
+/* Tailkit configuration */
+@theme {
+  /* Fonts */
+  --default-font-family: "Inter";
+
+  /* Spacing */
+  --spacing-8xl: 90rem;
+  --spacing-9xl: 105rem;
+  --spacing-10xl: 120rem;
+
+  /* Animations */
+  --animate-spin-slow: spin-slow 8s linear infinite;
+
+  @keyframes spin-slow {
+    100% {
+      transform: rotate(-360deg);
+    }
+  }
 }

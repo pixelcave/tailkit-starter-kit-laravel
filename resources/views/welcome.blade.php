@@ -85,7 +85,7 @@
         <div>
           <a
             href="https://pixelcave.com"
-            class="group mb-2 inline-flex items-center gap-1 rounded border bg-gray-200/50 px-1.5 py-1 text-sm font-semibold leading-4 text-gray-700 transition hover:border-rose-100 hover:bg-rose-100 hover:text-rose-700 active:border-gray-200 active:bg-gray-200/50 active:text-gray-700 dark:border-gray-700 dark:bg-transparent dark:text-gray-300 dark:hover:border-rose-900 dark:hover:bg-rose-800 dark:hover:text-rose-100 dark:active:border-gray-700 dark:active:bg-gray-700/50 dark:active:text-gray-300"
+            class="group mb-2 inline-flex items-center gap-1 rounded-sm border border-gray-200 bg-gray-200/50 px-1.5 py-1 text-sm font-semibold leading-4 text-gray-700 transition hover:border-rose-100 hover:bg-rose-100 hover:text-rose-700 active:border-gray-200 active:bg-gray-200/50 active:text-gray-700 dark:border-gray-700 dark:bg-transparent dark:text-gray-300 dark:hover:border-rose-900 dark:hover:bg-rose-800 dark:hover:text-rose-100 dark:active:border-gray-700 dark:active:bg-gray-700/50 dark:active:text-gray-300"
           >
             <span>Crafted with</span>
             <svg
@@ -105,13 +105,13 @@
             class="lg:leading-tighter mb-4 text-3xl font-black text-black md:text-5xl lg:mx-auto lg:w-5/6 dark:text-white"
           >
             <span
-              class="bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 bg-clip-text text-transparent dark:from-blue-400 dark:via-indigo-400 dark:to-purple-400"
+              class="bg-linear-to-r from-blue-600 via-indigo-600 to-purple-600 bg-clip-text text-transparent dark:from-blue-400 dark:via-indigo-400 dark:to-purple-400"
             >
               Build
             </span>
             super modern web applications and websites
             <span
-              class="bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 bg-clip-text text-transparent dark:from-blue-400 dark:via-indigo-400 dark:to-purple-400"
+              class="bg-linear-to-r from-blue-600 via-indigo-600 to-purple-600 bg-clip-text text-transparent dark:from-blue-400 dark:via-indigo-400 dark:to-purple-400"
             >
               really fast
             </span>
@@ -128,7 +128,7 @@
             <a
               href="https://tailkit.com/login"
               target="_blank"
-              class="group inline-flex w-full items-center justify-center gap-2 rounded-lg border border-blue-700 bg-blue-700 p-3 text-sm font-semibold leading-5 text-white transition hover:border-blue-800 hover:bg-blue-800 hover:text-white focus:outline-none focus:ring-2 focus:ring-blue-500/50 active:border-blue-700 active:bg-blue-700 sm:w-auto sm:px-4"
+              class="group inline-flex w-full items-center justify-center gap-2 rounded-lg border border-blue-700 bg-blue-700 p-3 text-sm font-semibold leading-5 text-white transition hover:border-blue-800 hover:bg-blue-800 hover:text-white focus:outline-hidden focus:ring-2 focus:ring-blue-500/50 active:border-blue-700 active:bg-blue-700 sm:w-auto sm:px-4"
             >
               <svg
                 class="hi-mini hi-rocket-launch inline-block size-5 opacity-50"
@@ -153,7 +153,7 @@
             <a
               href="https://tailkit.com/docs"
               target="_blank"
-              class="group inline-flex w-full items-center justify-center gap-2 rounded-lg border border-gray-200 bg-white p-3 text-sm font-semibold leading-5 text-gray-800 transition hover:border-gray-300 hover:text-gray-900 hover:shadow-sm focus:outline-none focus:ring-2 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none sm:w-auto sm:px-4 dark:border-gray-700 dark:bg-transparent dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/50 dark:active:border-gray-700"
+              class="group inline-flex w-full items-center justify-center gap-2 rounded-lg border border-gray-200 bg-white p-3 text-sm font-semibold leading-5 text-gray-800 transition hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:outline-hidden focus:ring-2 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none sm:w-auto sm:px-4 dark:border-gray-700 dark:bg-transparent dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/50 dark:active:border-gray-700"
             >
               <svg
                 class="hi-mini hi-document-text inline-block size-5 opacity-50"
