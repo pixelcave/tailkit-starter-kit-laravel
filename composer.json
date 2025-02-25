@@ -9,18 +9,17 @@
   "license": "MIT",
   "require": {
     "php": "^8.2",
-    "laravel/framework": "^11.42.1",
+    "laravel/framework": "^12.0.1",
     "laravel/tinker": "^2.10.1"
   },
   "require-dev": {
     "fakerphp/faker": "^1.24.1",
     "laravel/pail": "^1.2.2",
-    "laravel/pint": "^1.20.0",
+    "laravel/pint": "^1.21.0",
     "laravel/sail": "^1.41.0",
     "mockery/mockery": "^1.6.12",
-    "nunomaduro/collision": "^8.5.0",
-    "phpunit/phpunit": "^10.5.45",
-    "spatie/laravel-ignition": "^2.9.0"
+    "nunomaduro/collision": "^8.6.1",
+    "phpunit/phpunit": "^11.5.3"
   },
   "autoload": {
     "psr-4": {
@@ -52,13 +51,10 @@
     ],
     "dev": [
       "Composer\\Config::disableProcessTimeout",
-      "npx concurrently -c \"#93c5fd,#c4b5fd,#d4d4d8,#fdba74\" \"php artisan serve\" \"php artisan queue:listen --tries=1\" \"php artisan pail\" \"npm run dev\" --names=server,queue,logs,vite"
+      "npx concurrently -c \"#93c5fd,#c4b5fd,#fdba74\" \"php artisan serve\" \"php artisan queue:listen --tries=1\" \"npm run dev\" --names='server,queue,vite'"
     ]
   },
   "extra": {
-    "branch-alias": {
-      "dev-master": "11.x-dev"
-    },
     "laravel": {
       "dont-discover": []
     }
