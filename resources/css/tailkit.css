@@ -6,7 +6,7 @@
 @plugin '@tailwindcss/typography';
 
 /* Class based dark mode */
-@variant dark (&:where(.dark, .dark *));
+@custom-variant dark (&:where(.dark, .dark *));
 
 /* Tailkit configuration */
 @theme {
