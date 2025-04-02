@@ -8,6 +8,9 @@
 /* Class based dark mode */
 @custom-variant dark (&:where(.dark, .dark *));
 
+/* Enable hover on mobile */
+@custom-variant hover (&:hover);
+
 /* Tailkit configuration */
 @theme {
   /* Fonts */
