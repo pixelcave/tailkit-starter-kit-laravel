@@ -7,7 +7,7 @@ Requirements: node.js, composer, php ≥ 8.2
 
 Installation: create an .env from the .env.example and then run 'composer install && npm install && php artisan key:generate'
 
-Development: 'php artisan serve' and 'npm run dev'
+Development: composer run dev
 Production: npm run build
 ```
 
