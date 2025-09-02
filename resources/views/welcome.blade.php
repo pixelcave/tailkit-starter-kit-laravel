@@ -10,10 +10,14 @@
     <link rel="icon" href="favicon.svg" sizes="any" type="image/svg+xml" />
     <link rel="icon" href="favicon.png" type="image/png" />
 
-    <!-- Inter web font from Bunny.net (GDPR compliant) -->
+    <!-- Inter + Caveat web fonts from Bunny.net (GDPR compliant) -->
     <link rel="preconnect" href="https://fonts.bunny.net" />
     <link
       href="https://fonts.bunny.net/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.bunny.net/css2?family=Caveat:wght@600&display=swap"
       rel="stylesheet"
     />
 
