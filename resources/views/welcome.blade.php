@@ -21,7 +21,7 @@
       rel="stylesheet"
     />
 
-    @vite(["resources/css/tailkit.css", "resources/js/app.js"])
+    @vite (["resources/css/tailkit.css", "resources/js/app.js"])
   </head>
 
   <body class="antialiased">

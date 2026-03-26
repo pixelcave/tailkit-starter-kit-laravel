@@ -10,5 +10,7 @@
   "[blade]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "prettier.documentSelectors": ["**/*.blade.php"]
+  "files.associations": {
+    "*.blade.php": "blade"
+  }
 }
