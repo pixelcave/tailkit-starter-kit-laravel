@@ -13,6 +13,7 @@
     "skills": [
         "infer-conventions",
         "laravel-best-practices",
+        "testing-best-practices",
         "tailwindcss-development"
     ]
 }
